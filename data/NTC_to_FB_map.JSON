@@ -1,0 +1,269 @@
+{
+    "metaData": [
+        {
+            "mapName": "NTC2024v1-FB2024v1",
+            "mapVersion": "2024-03-11",
+            "TopologyFile1": "topology_NTC2024v1.JSON",
+            "topology1Name": "NTC_topology",
+            "topology1version": "2024-03-15",
+            "TopologyFile2": "topology_FB2024v1.JSON",
+            "topology2Name": "FB_topology",
+            "topology2version": "2024-03-05",
+            "createdBy": "jlm@nordic-rcc.net"
+        }
+    ],
+    "map": [
+        {
+            "key": "DE_LU-DK1",
+            "value": "DK1_DE-DK1"
+        },
+        {
+            "key": "DE_LU-DK2",
+            "value": "DK2_KO-DK2"
+        },
+        {
+            "key": "DE_LU-NO2",
+            "value": "NO2_NK-NO2"
+        },
+        {
+            "key": "DE_LU-SE4",
+            "value": "SE4_BC-SE4"
+        },
+        {
+            "key": "DK1-DE_LU",
+            "value": "DK1-DK1_DE"
+        },
+        {
+            "key": "DK1-DK2",
+            "value": "DK2_SB-DK2"
+        },
+        {
+            "key": "DK1-NL",
+            "value": "DK1-DK1_CO"
+        },
+        {
+            "key": "DK1-NO2",
+            "value": "NO2_SK-NO2"
+        },
+        {
+            "key": "DK1-SE3",
+            "value": "SE3_KS-SE3"
+        },
+        {
+            "key": "DK2-DE_LU",
+            "value": "DK2-DK2_KO"
+        },
+        {
+            "key": "DK2-DK1",
+            "value": "DK2-DK2_SB"
+        },
+        {
+            "key": "DK2-SE4",
+            "value": "DK2-SE4"
+        },
+        {
+            "key": "EE-FI",
+            "value": "FI_EL-FI"
+        },
+        {
+            "key": "FI-EE",
+            "value": "FI-FI_EL"
+        },
+        {
+            "key": "FI-NO4",
+            "value": "FI-NO4"
+        },
+        {
+            "key": "FI-SE1",
+            "value": "FI-SE1"
+        },
+        {
+            "key": "FI-SE3",
+            "value": "SE3_FS-SE3"
+        },
+        {
+            "key": "LT-SE4",
+            "value": "SE4_NB-SE4"
+        },
+        {
+            "key": "NL-DK1",
+            "value": "DK1_CO-DK1"
+        },
+        {
+            "key": "NL-NO2",
+            "value": "NO2_ND-NO2"
+        },
+        {
+            "key": "NO1-NO2",
+            "value": "NO1-NO2"
+        },
+        {
+            "key": "NO1-NO3",
+            "value": "NO1-NO3"
+        },
+        {
+            "key": "NO1-NO5",
+            "value": "NO1-NO5"
+        },
+        {
+            "key": "NO1-SE3",
+            "value": "NO1-SE3"
+        },
+        {
+            "key": "NO2-DE_LU",
+            "value": "NO2-NO2_NK"
+        },
+        {
+            "key": "NO2-DK1",
+            "value": "DK1_SK-DK1"
+        },
+        {
+            "key": "NO2-NL",
+            "value": "NO2-NO2_ND"
+        },
+        {
+            "key": "NO2-NO1",
+            "value": "NO2-NO1"
+        },
+        {
+            "key": "NO2-NO5",
+            "value": "NO2-NO5"
+        },
+        {
+            "key": "NO3-NO1",
+            "value": "NO3-NO1"
+        },
+        {
+            "key": "NO3-NO4",
+            "value": "NO3-NO4"
+        },
+        {
+            "key": "NO3-NO5",
+            "value": "NO3-NO5"
+        },
+        {
+            "key": "NO3-SE2",
+            "value": "NO3-SE2"
+        },
+        {
+            "key": "NO4-FI",
+            "value": "NO4-FI"
+        },
+        {
+            "key": "NO4-NO3",
+            "value": "NO4-NO3"
+        },
+        {
+            "key": "NO4-SE1",
+            "value": "NO4-SE1"
+        },
+        {
+            "key": "NO4-SE2",
+            "value": "NO4-SE2"
+        },
+        {
+            "key": "NO5-NO1",
+            "value": "NO5-NO1"
+        },
+        {
+            "key": "NO5-NO2",
+            "value": "NO5-NO2"
+        },
+        {
+            "key": "NO5-NO3",
+            "value": "NO5-NO3"
+        },
+        {
+            "key": "PL-SE4",
+            "value": "SE4_SP-SE4"
+        },
+        {
+            "key": "SE1-FI",
+            "value": "SE1-FI"
+        },
+        {
+            "key": "SE1-NO4",
+            "value": "SE1-NO4"
+        },
+        {
+            "key": "SE1-SE2",
+            "value": "SE1-SE2"
+        },
+        {
+            "key": "SE2-NO3",
+            "value": "SE2-NO3"
+        },
+        {
+            "key": "SE2-NO4",
+            "value": "SE2-NO4"
+        },
+        {
+            "key": "SE2-SE1",
+            "value": "SE2-SE1"
+        },
+        {
+            "key": "SE2-SE3",
+            "value": "SE2-SE3"
+        },
+        {
+            "key": "SE3_SWL-SE4_SWL",
+            "value": "SE3-SE3_SWL"
+        },
+        {
+            "key": "SE3_SWL-SE4_SWL",
+            "value": "SE4_SWL-SE4"
+        },
+        {
+            "key": "SE3-DK1",
+            "value": "DK1_KS-DK1"
+        },
+        {
+            "key": "SE3-DK1",
+            "value": "SE3-SE3_KS"
+        },
+        {
+            "key": "SE3-FI",
+            "value": "FI_FS-FI"
+        },
+        {
+            "key": "SE3-NO1",
+            "value": "SE3-NO1"
+        },
+        {
+            "key": "SE3-SE2",
+            "value": "SE3-SE2"
+        },
+        {
+            "key": "SE3-SE4",
+            "value": "SE3-SE4"
+        },
+        {
+            "key": "SE4_SWL-SE3_SWL",
+            "value": "SE3_SWL-SE3"
+        },
+        {
+            "key": "SE4_SWL-SE3_SWL",
+            "value": "SE4-SE4_SWL"
+        },
+        {
+            "key": "SE4-DE_LU",
+            "value": "SE4-SE4_BC"
+        },
+        {
+            "key": "SE4-DK2",
+            "value": "SE4-DK2"
+        },
+        {
+            "key": "SE4-LT",
+            "value": "SE4-SE4_NB"
+        },
+        {
+            "key": "SE4-PL",
+            "value": "SE4-SE4_SP"
+        },
+        {
+            "key": "SE4-SE3",
+            "value": "SE4-SE3"
+        }
+    ]
+}

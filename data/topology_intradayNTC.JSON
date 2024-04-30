@@ -1,0 +1,674 @@
+{
+    "metaData": [
+        {
+            "name": "intraday_ntc_topology",
+            "version": "2024-04-24",
+            "createdBy": "jlm@nordic-rcc.net"
+        }
+    ],
+    "biddingZones": [
+        {
+            "shortName": "DE_LU",
+            "eic": "10Y1001A1001A82H",
+            "isVirtual": false,
+            "synchronousArea": "centralEurope",
+            "ccr": "core"
+        },
+        {
+            "shortName": "DK1",
+            "eic": "10YDK-1--------W",
+            "isVirtual": false,
+            "synchronousArea": "centralEurope",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "DK2",
+            "eic": "10YDK-2--------M",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "EE",
+            "eic": "10Y1001A1001A39I",
+            "isVirtual": false,
+            "synchronousArea": "baltics",
+            "ccr": "baltics"
+        },
+        {
+            "shortName": "FI",
+            "eic": "10YFI-1--------U",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "LT",
+            "eic": "10YLT-1001A0008Q",
+            "isVirtual": false,
+            "synchronousArea": "baltics",
+            "ccr": "baltics"
+        },
+        {
+            "shortName": "NL",
+            "eic": "10YNL----------L",
+            "isVirtual": false,
+            "synchronousArea": "centralEurope",
+            "ccr": "core"
+        },
+        {
+            "shortName": "NO1",
+            "eic": "10YNO-1--------2",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "NO2",
+            "eic": "10YNO-2--------T",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "NO2A",
+            "eic": "10Y1001C--00152Z",
+            "isVirtual": true,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "NO3",
+            "eic": "10YNO-3--------J",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "NO4",
+            "eic": "10YNO-4--------9",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "NO5",
+            "eic": "10Y1001A1001A48H",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "PL",
+            "eic": "10YPL-AREA-----S",
+            "isVirtual": false,
+            "synchronousArea": "centralEurope",
+            "ccr": "core"
+        },
+        {
+            "shortName": "SE1",
+            "eic": "10Y1001A1001A44P",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE2",
+            "eic": "10Y1001A1001A45N",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE3",
+            "eic": "10Y1001A1001A46L",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE3_ACDC",
+            "eic": "46Y000000000016L",
+            "isVirtual": true,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE3A",
+            "eic": "46Y000000000008K",
+            "isVirtual": true,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE4",
+            "eic": "10Y1001A1001A47J",
+            "isVirtual": false,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "SE4_ACDC",
+            "eic": "46Y000000000015N",
+            "isVirtual": true,
+            "synchronousArea": "nordics",
+            "ccr": "nordics"
+        }
+    ],
+    "biddingZoneBorders": [
+        {
+            "name": "DE_LU-DK1",
+            "from": "DE_LU",
+            "to": "DK1",
+            "type": "AC"
+        },
+        {
+            "name": "DE_LU-DK2",
+            "from": "DE_LU",
+            "to": "DK2",
+            "type": "HVDC"
+        },
+        {
+            "name": "DE_LU-NO2",
+            "from": "DE_LU",
+            "to": "NO2",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK1-DE_LU",
+            "from": "DK1",
+            "to": "DE_LU",
+            "type": "AC"
+        },
+        {
+            "name": "DK1-DK2",
+            "from": "DK1",
+            "to": "DK2",
+            "type": "AC"
+        },
+        {
+            "name": "DK1-NL",
+            "from": "DK1",
+            "to": "NL",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK1-NO2",
+            "from": "DK1",
+            "to": "NO2",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK1-SE3",
+            "from": "DK1",
+            "to": "SE3",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK2-DE_LU",
+            "from": "DK2",
+            "to": "DE_LU",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK2-DK1",
+            "from": "DK2",
+            "to": "DK1",
+            "type": "AC"
+        },
+        {
+            "name": "DK2-SE4",
+            "from": "DK2",
+            "to": "SE4",
+            "type": "AC"
+        },
+        {
+            "name": "EE-FI",
+            "from": "EE",
+            "to": "FI",
+            "type": "HVDC"
+        },
+        {
+            "name": "FI-EE",
+            "from": "FI",
+            "to": "EE",
+            "type": "HVDC"
+        },
+        {
+            "name": "FI-SE1",
+            "from": "FI",
+            "to": "SE1",
+            "type": "AC"
+        },
+        {
+            "name": "FI-SE3",
+            "from": "FI",
+            "to": "SE3",
+            "type": "HVDC"
+        },
+        {
+            "name": "LT-SE4",
+            "from": "LT",
+            "to": "SE4",
+            "type": "HVDC"
+        },
+        {
+            "name": "NL-DK1",
+            "from": "NL",
+            "to": "DK1",
+            "type": "HVDC"
+        },
+        {
+            "name": "NL-NO2",
+            "from": "NL",
+            "to": "NO2",
+            "type": "HVDC"
+        },
+        {
+            "name": "NO1-NO2",
+            "from": "NO1",
+            "to": "NO2",
+            "type": "AC"
+        },
+        {
+            "name": "NO1-NO3",
+            "from": "NO1",
+            "to": "NO3",
+            "type": "AC"
+        },
+        {
+            "name": "NO1-NO5",
+            "from": "NO1",
+            "to": "NO5",
+            "type": "AC"
+        },
+        {
+            "name": "NO1-SE3",
+            "from": "NO1",
+            "to": "SE3",
+            "type": "AC"
+        },
+        {
+            "name": "NO2A-NO2",
+            "from": "NO2A",
+            "to": "NO2",
+            "type": "lineset"
+        },
+        {
+            "name": "NO2-DE_LU",
+            "from": "NO2",
+            "to": "DE_LU",
+            "type": "HVDC"
+        },
+        {
+            "name": "NO2-DK1",
+            "from": "NO2",
+            "to": "DK1",
+            "type": "HVDC"
+        },
+        {
+            "name": "NO2-NL",
+            "from": "NO2",
+            "to": "NL",
+            "type": "HVDC"
+        },
+        {
+            "name": "NO2-NO1",
+            "from": "NO2",
+            "to": "NO1",
+            "type": "AC"
+        },
+        {
+            "name": "NO2-NO2A",
+            "from": "NO2",
+            "to": "NO2A",
+            "type": "lineset"
+        },
+        {
+            "name": "NO2-NO5",
+            "from": "NO2",
+            "to": "NO5",
+            "type": "AC"
+        },
+        {
+            "name": "NO3-NO1",
+            "from": "NO3",
+            "to": "NO1",
+            "type": "AC"
+        },
+        {
+            "name": "NO3-NO4",
+            "from": "NO3",
+            "to": "NO4",
+            "type": "AC"
+        },
+        {
+            "name": "NO3-NO5",
+            "from": "NO3",
+            "to": "NO5",
+            "type": "AC"
+        },
+        {
+            "name": "NO3-SE2",
+            "from": "NO3",
+            "to": "SE2",
+            "type": "AC"
+        },
+        {
+            "name": "NO4-NO3",
+            "from": "NO4",
+            "to": "NO3",
+            "type": "AC"
+        },
+        {
+            "name": "NO4-SE1",
+            "from": "NO4",
+            "to": "SE1",
+            "type": "AC"
+        },
+        {
+            "name": "NO4-SE2",
+            "from": "NO4",
+            "to": "SE2",
+            "type": "AC"
+        },
+        {
+            "name": "NO5-NO1",
+            "from": "NO5",
+            "to": "NO1",
+            "type": "AC"
+        },
+        {
+            "name": "NO5-NO2",
+            "from": "NO5",
+            "to": "NO2",
+            "type": "AC"
+        },
+        {
+            "name": "NO5-NO3",
+            "from": "NO5",
+            "to": "NO3",
+            "type": "AC"
+        },
+        {
+            "name": "PL-SE4",
+            "from": "PL",
+            "to": "SE4",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE1-FI",
+            "from": "SE1",
+            "to": "FI",
+            "type": "AC"
+        },
+        {
+            "name": "SE1-NO4",
+            "from": "SE1",
+            "to": "NO4",
+            "type": "AC"
+        },
+        {
+            "name": "SE1-SE2",
+            "from": "SE1",
+            "to": "SE2",
+            "type": "AC"
+        },
+        {
+            "name": "SE2-NO3",
+            "from": "SE2",
+            "to": "NO3",
+            "type": "AC"
+        },
+        {
+            "name": "SE2-NO4",
+            "from": "SE2",
+            "to": "NO4",
+            "type": "AC"
+        },
+        {
+            "name": "SE2-SE1",
+            "from": "SE2",
+            "to": "SE1",
+            "type": "AC"
+        },
+        {
+            "name": "SE2-SE3",
+            "from": "SE2",
+            "to": "SE3",
+            "type": "AC"
+        },
+        {
+            "name": "SE3_ACDC-SE4_ACDC",
+            "from": "SE3_ACDC",
+            "to": "SE4_ACDC",
+            "type": "lineset"
+        },
+        {
+            "name": "SE3_SWL-SE4_SWL",
+            "from": "SE3",
+            "to": "SE4",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE3A-SE3",
+            "from": "SE3A",
+            "to": "SE3",
+            "type": "lineset"
+        },
+        {
+            "name": "SE3-DK1",
+            "from": "SE3",
+            "to": "DK1",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE3-FI",
+            "from": "SE3",
+            "to": "FI",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE3-NO1",
+            "from": "SE3",
+            "to": "NO1",
+            "type": "AC"
+        },
+        {
+            "name": "SE3-SE2",
+            "from": "SE3",
+            "to": "SE2",
+            "type": "AC"
+        },
+        {
+            "name": "SE3-SE3A",
+            "from": "SE3",
+            "to": "SE3A",
+            "type": "lineset"
+        },
+        {
+            "name": "SE3-SE4",
+            "from": "SE3",
+            "to": "SE4",
+            "type": "AC"
+        },
+        {
+            "name": "SE4_ACDC-SE3_ACDC",
+            "from": "SE4_ACDC",
+            "to": "SE3_ACDC",
+            "type": "lineset"
+        },
+        {
+            "name": "SE4_SWL-SE3_SWL",
+            "from": "SE4",
+            "to": "SE3",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE4-DK2",
+            "from": "SE4",
+            "to": "DK2",
+            "type": "AC"
+        },
+        {
+            "name": "SE4-LT",
+            "from": "SE4",
+            "to": "LT",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE4-PL",
+            "from": "SE4",
+            "to": "PL",
+            "type": "HVDC"
+        },
+        {
+            "name": "SE4-SE3",
+            "from": "SE4",
+            "to": "SE3",
+            "type": "AC"
+        }
+    ],
+    "hvdcLinks": [
+        {
+            "name": "FennoSkan",
+            "biddingZoneBorders": [
+                "FI-SE3",
+                "SE3-FI"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "SydvestLaenk",
+            "biddingZoneBorders": [
+                "SE3_SWL-SE4_SWL",
+                "SE4_SWL-SE3_SWL"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "CobraCable",
+            "biddingZoneBorders": [
+                "DK1-NL",
+                "NL-DK1"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "EstLink",
+            "biddingZoneBorders": [
+                "FI-EE",
+                "EE-FI"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "NorNed",
+            "biddingZoneBorders": [
+                "NO2-NL",
+                "NL-NO2"
+            ],
+            "ImplicitLossFactor": 0.032
+        },
+        {
+            "name": "NordLink",
+            "biddingZoneBorders": [
+                "NO2-DE_LU",
+                "DE_LU-NO2"
+            ],
+            "ImplicitLossFactor": 0.031
+        },
+        {
+            "name": "NordBalt",
+            "biddingZoneBorders": [
+                "SE4-LT",
+                "LT-SE4"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "SwePol",
+            "biddingZoneBorders": [
+                "SE4-PL",
+                "PL-SE4"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "Skagerrak",
+            "biddingZoneBorders": [
+                "DK1-NO2",
+                "NO2-DK1"
+            ],
+            "ImplicitLossFactor": 0.029
+        },
+        {
+            "name": "KontiSkan",
+            "biddingZoneBorders": [
+                "DK1-SE3",
+                "SE3-DK1"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "StoreBaelt",
+            "biddingZoneBorders": [
+                "DK1-DK2",
+                "DK2-DK1"
+            ],
+            "ImplicitLossFactor": 0.0
+        },
+        {
+            "name": "KonTek",
+            "biddingZoneBorders": [
+                "DK2-DE_LU",
+                "DE_LU-DK2"
+            ],
+            "ImplicitLossFactor": 0.0
+        }
+    ],
+    "linesets": [
+        {
+            "name": "SE3_ACDC-SE4_ACDC",
+            "mappedBorders": [
+                "SE3-SE4",
+                "SE3_SWL-SE4_SWL"
+            ]
+        },
+        {
+            "name": "SE4_ACDC-SE3_ACDC",
+            "mappedBorders": [
+                "SE4-SE3",
+                "SE4_SWL-SE3_SWL"
+            ]
+        },
+        {
+            "name": "SE3A-SE3",
+            "mappedBorders": [
+                "DK1-SE3",
+                "NO1-SE3"
+            ]
+        },
+        {
+            "name": "NO2-NO2A",
+            "mappedBorders": [
+                "NO2-NL",
+                "NO2-DE_LU"
+            ]
+        },
+        {
+            "name": "NO2A-NO2",
+            "mappedBorders": [
+                "NL-NO2",
+                "DE_LU-NO2"
+            ]
+        },
+        {
+            "name": "SE3-SE3A",
+            "mappedBorders": [
+                "SE3-DK1",
+                "SE3-NO1"
+            ]
+        }
+    ]
+}
