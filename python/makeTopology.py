@@ -214,9 +214,23 @@ def validate_map(map_dataFrames : list, topology1_dataFrames : list, topology2_d
     return errCount == 0
 
 
+def validate_all():
+    # Todo: validate all topology files in directory
+
+
+def export_excel():
+    #Todo: export topology / topology map in excel file for easy editing.
+    
+
+def load_from_json():
+    #Todo: import JSON formatted topology file / topology map.
+
+
 if __name__=="__main__":
     
     path = "..\\data\\"
+    
+    # Todo: setup for commanline execution
     
     # test_top1 = load_topology_from_excel('topology_testSet.xlsx')
     # if  check_topology(test_top1):
