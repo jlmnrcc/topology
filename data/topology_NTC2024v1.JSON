@@ -134,7 +134,7 @@
             "ccr": "nordics"
         },
         {
-            "shortName": "SE3_ACDC",
+            "shortName": "SE4_ACDC",
             "eic": "46Y000000000016L",
             "isVirtual": true,
             "synchronousArea": "nordics",
@@ -162,7 +162,7 @@
             "ccr": "nordics"
         },
         {
-            "shortName": "SE4_ACDC",
+            "shortName": "SE3_ACDC",
             "eic": "46Y000000000015N",
             "isVirtual": true,
             "synchronousArea": "nordics",
