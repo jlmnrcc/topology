@@ -216,15 +216,16 @@ def validate_map(map_dataFrames : list, topology1_dataFrames : list, topology2_d
 
 def validate_all():
     # Todo: validate all topology files in directory
+    return None
 
 
 def export_excel():
     #Todo: export topology / topology map in excel file for easy editing.
-    
+    return None
 
 def load_from_json():
     #Todo: import JSON formatted topology file / topology map.
-
+    return None
 
 if __name__=="__main__":
     
