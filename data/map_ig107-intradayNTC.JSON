@@ -219,7 +219,7 @@
         },
         {
             "key": "SE3_ACDC-SE4_ACDC",
-            "value": "SE3-SE4"
+            "value": "SE3_ACDC-SE4_ACDC"
         },
         {
             "key": "SE4-SE3",
@@ -243,7 +243,7 @@
         },
         {
             "key": "SE4_ACDC-SE3_ACDC",
-            "value": "SE4-SE3"
+            "value": "SE4_ACDC-SE3_ACDC"
         },
         {
             "key": "SE3B-SE3A",

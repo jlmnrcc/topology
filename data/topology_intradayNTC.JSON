@@ -439,7 +439,7 @@
             "type": "AC"
         },
         {
-            "name": "SE3-SE4",
+            "name": "SE3_ACDC-SE4_ACDC",
             "from": "SE3_ACDC",
             "to": "SE4_ACDC",
             "type": "lineset"
@@ -493,7 +493,7 @@
             "type": "AC"
         },
         {
-            "name": "SE4-SE3",
+            "name": "SE4_ACDC-SE3_ACDC",
             "from": "SE4_ACDC",
             "to": "SE3_ACDC",
             "type": "lineset"
@@ -629,14 +629,14 @@
     ],
     "linesets": [
         {
-            "name": "SE3-SE4",
+            "name": "SE3_ACDC-SE4_ACDC",
             "mappedBorders": [
                 "SE3_AC-SE4_AC",
                 "SE3_SWL-SE4_SWL"
             ]
         },
         {
-            "name": "SE4-SE3",
+            "name": "SE4_ACDC-SE3_ACDC",
             "mappedBorders": [
                 "SE4_AC-SE3_AC",
                 "SE4_SWL-SE3_SWL"
