@@ -439,10 +439,16 @@
             "type": "AC"
         },
         {
-            "name": "SE3_ACDC-SE4_ACDC",
+            "name": "SE3-SE4",
             "from": "SE3_ACDC",
             "to": "SE4_ACDC",
             "type": "lineset"
+        },
+        {
+            "name": "SE3_AC-SE4_AC",
+            "from": "SE3",
+            "to": "SE4",
+            "type": "AC"
         },
         {
             "name": "SE3_SWL-SE4_SWL",
@@ -487,16 +493,16 @@
             "type": "lineset"
         },
         {
-            "name": "SE3_AC-SE4_AC",
-            "from": "SE3",
-            "to": "SE4",
-            "type": "AC"
-        },
-        {
-            "name": "SE4_ACDC-SE3_ACDC",
+            "name": "SE4-SE3",
             "from": "SE4_ACDC",
             "to": "SE3_ACDC",
             "type": "lineset"
+        },
+        {
+            "name": "SE4_AC-SE3_AC",
+            "from": "SE4",
+            "to": "SE3",
+            "type": "AC"
         },
         {
             "name": "SE4_SWL-SE3_SWL",
@@ -521,12 +527,6 @@
             "from": "SE4",
             "to": "PL",
             "type": "HVDC"
-        },
-        {
-            "name": "SE4_AC-SE3_AC",
-            "from": "SE4",
-            "to": "SE3",
-            "type": "AC"
         }
     ],
     "hvdcLinks": [
@@ -629,14 +629,14 @@
     ],
     "linesets": [
         {
-            "name": "SE3_ACDC-SE4_ACDC",
+            "name": "SE3-SE4",
             "mappedBorders": [
                 "SE3_AC-SE4_AC",
                 "SE3_SWL-SE4_SWL"
             ]
         },
         {
-            "name": "SE4_ACDC-SE3_ACDC",
+            "name": "SE4-SE3",
             "mappedBorders": [
                 "SE4_AC-SE3_AC",
                 "SE4_SWL-SE3_SWL"
