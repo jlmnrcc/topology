@@ -18,3 +18,5 @@ A small function library is included for validating topologies according to a fe
 -- If type is HVDC, then border must be associated with an HVDC definition
 -- If type is lineset, then border must be associated with a lineset definition
 
+hej frederik
+
