@@ -2,7 +2,7 @@
     "metaData": [
         {
             "name": "intraday_ntc_topology",
-            "version": "2024-04-24",
+            "version": "2024-06-27",
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],
@@ -152,6 +152,13 @@
             "eic": "46Y000000000016L",
             "isVirtual": true,
             "synchronousArea": "nordics",
+            "ccr": "nordics"
+        },
+        {
+            "shortName": "DK1A",
+            "eic": "10YDK-1-------AA",
+            "isVirtual": true,
+            "synchronousArea": "centralEurope",
             "ccr": "nordics"
         }
     ],
@@ -439,12 +446,6 @@
             "type": "AC"
         },
         {
-            "name": "SE3-SE4",
-            "from": "SE3_ACDC",
-            "to": "SE4_ACDC",
-            "type": "lineset"
-        },
-        {
             "name": "SE3_AC-SE4_AC",
             "from": "SE3",
             "to": "SE4",
@@ -493,9 +494,9 @@
             "type": "lineset"
         },
         {
-            "name": "SE4-SE3",
-            "from": "SE4_ACDC",
-            "to": "SE3_ACDC",
+            "name": "SE3-SE4",
+            "from": "SE3_ACDC",
+            "to": "SE4_ACDC",
             "type": "lineset"
         },
         {
@@ -527,6 +528,24 @@
             "from": "SE4",
             "to": "PL",
             "type": "HVDC"
+        },
+        {
+            "name": "SE4-SE3",
+            "from": "SE4_ACDC",
+            "to": "SE3_ACDC",
+            "type": "lineset"
+        },
+        {
+            "name": "DK1-DK1A",
+            "from": "DK1",
+            "to": "DK1A",
+            "type": "lineset"
+        },
+        {
+            "name": "DK1A-DK1",
+            "from": "DK1A",
+            "to": "DK1",
+            "type": "lineset"
         }
     ],
     "hvdcLinks": [
@@ -668,6 +687,20 @@
             "mappedBorders": [
                 "SE3-DK1",
                 "SE3-NO1"
+            ]
+        },
+        {
+            "name": "DK1-DK1A",
+            "mappedBorders": [
+                "DK1-SE3",
+                "DK1-NO2"
+            ]
+        },
+        {
+            "name": "DK1A-DK1",
+            "mappedBorders": [
+                "SE3-DK1",
+                "NO2-DK1"
             ]
         }
     ]

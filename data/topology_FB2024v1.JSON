@@ -359,15 +359,15 @@
             "type": "AC"
         },
         {
-            "name": "NO1-NO5",
-            "from": "NO1",
-            "to": "NO5",
-            "type": "AC"
-        },
-        {
             "name": "NO1-NO3",
             "from": "NO1",
             "to": "NO3",
+            "type": "AC"
+        },
+        {
+            "name": "NO1-NO5",
+            "from": "NO1",
+            "to": "NO5",
             "type": "AC"
         },
         {
@@ -404,6 +404,12 @@
             "name": "NO2-NO2_ND",
             "from": "NO2",
             "to": "NO2_ND",
+            "type": "HVDC"
+        },
+        {
+            "name": "NO2-NO2_NK",
+            "from": "NO2",
+            "to": "NO2_NK",
             "type": "HVDC"
         },
         {
@@ -638,12 +644,6 @@
             "name": "SE4-SE4_SWL",
             "from": "SE4",
             "to": "SE4_SWL",
-            "type": "HVDC"
-        },
-        {
-            "name": "NO2-NO2_NK",
-            "from": "NO2",
-            "to": "NO2_NK",
             "type": "HVDC"
         }
     ],

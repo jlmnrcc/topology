@@ -253,6 +253,18 @@
             "type": "AC"
         },
         {
+            "name": "DK1_KS-DK1",
+            "from": "DK1_KS",
+            "to": "DK1",
+            "type": "HVDC"
+        },
+        {
+            "name": "DK1_SK-DK1",
+            "from": "DK1_SK",
+            "to": "DK1",
+            "type": "HVDC"
+        },
+        {
             "name": "DK1A-DK1",
             "from": "DK1A",
             "to": "DK1",
@@ -289,21 +301,9 @@
             "type": "AC"
         },
         {
-            "name": "DK1_KS-DK1",
-            "from": "DK1_KS",
-            "to": "DK1",
-            "type": "HVDC"
-        },
-        {
             "name": "DK1-DK1_KS",
             "from": "DK1",
             "to": "DK1_KS",
-            "type": "HVDC"
-        },
-        {
-            "name": "DK1_SK-DK1",
-            "from": "DK1_SK",
-            "to": "DK1",
             "type": "HVDC"
         },
         {
@@ -328,12 +328,6 @@
             "name": "DK1-NO2",
             "from": "DK1",
             "to": "NO2",
-            "type": "lineset"
-        },
-        {
-            "name": "SE3-DK1",
-            "from": "SE3",
-            "to": "DK1",
             "type": "lineset"
         },
         {
@@ -439,6 +433,12 @@
             "type": "HVDC"
         },
         {
+            "name": "NO2_SK-NO2",
+            "from": "NO2_SK",
+            "to": "NO2",
+            "type": "HVDC"
+        },
+        {
             "name": "NO2A-NO2",
             "from": "NO2A",
             "to": "NO2",
@@ -478,12 +478,6 @@
             "name": "NO2-NO2_SK",
             "from": "NO2",
             "to": "NO2_SK",
-            "type": "HVDC"
-        },
-        {
-            "name": "NO2_SK-NO2",
-            "from": "NO2_SK",
-            "to": "NO2",
             "type": "HVDC"
         },
         {
@@ -613,6 +607,12 @@
             "type": "lineset"
         },
         {
+            "name": "SE3_KS-SE3",
+            "from": "SE3_KS",
+            "to": "SE3",
+            "type": "HVDC"
+        },
+        {
             "name": "SE3_SWL-SE4_SWL",
             "from": "SE3_SWL",
             "to": "SE4_SWL",
@@ -643,6 +643,12 @@
             "type": "lineset"
         },
         {
+            "name": "SE3-DK1",
+            "from": "SE3",
+            "to": "DK1",
+            "type": "lineset"
+        },
+        {
             "name": "SE3-DK1A",
             "from": "SE3",
             "to": "DK1A",
@@ -670,12 +676,6 @@
             "name": "SE3-SE3_KS",
             "from": "SE3",
             "to": "SE3_KS",
-            "type": "HVDC"
-        },
-        {
-            "name": "SE3_KS-SE3",
-            "from": "SE3_KS",
-            "to": "SE3",
             "type": "HVDC"
         },
         {

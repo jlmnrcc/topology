@@ -2,13 +2,13 @@
     "metaData": [
         {
             "mapName": "ig107-intradayNTC",
-            "mapVersion": "2024-04-29",
+            "mapVersion": "2024-06-27",
             "TopologyFile1": "topology_ig107.JSON",
             "topology1Name": "norCap_ig107_topology",
             "topology1version": "2024-04-26",
             "TopologyFile2": "topology_intradayNTC.JSON",
             "topology2Name": "intraday_ntc_topology",
-            "topology2version": "2024-04-24",
+            "topology2version": "2024-06-27",
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],
@@ -260,6 +260,14 @@
         {
             "key": "NO2A-NO2",
             "value": "NO2A-NO2"
+        },
+        {
+            "key": "DK1-DK1A",
+            "value": "DK1-DK1A"
+        },
+        {
+            "key": "DK1A-DK1",
+            "value": "DK1A-DK1"
         }
     ]
 }
