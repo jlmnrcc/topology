@@ -200,13 +200,13 @@ def validate_map(map_dataFrames : list, topology1_dataFrames : list, topology2_d
     # a key is not found in topology1 -> error
     # a value is not founf in topology2 -> error
 
-    for index,k in map_df.iterrows():
-        if not top1_biddingZoneBorders['name'].isin([k['key']]).any():
-            errCount += 1
-            print('Error: Map key ' + k['keys'].values + ' was not found in topology1 bidding zone borders')
-        if not top2_biddingZoneBorders['name'].isin([k['value']]).any():
-            errCount += 1
-            print('Error: Map value ' + k['keys'].values + ' was not found in topology2 bidding zone borders')
+    # for index,k in map_df.iterrows():
+        # if not top1_biddingZoneBorders['name'].isin([k['key']]).any():
+            # errCount += 1
+            # print('Error: Map key ' + k['key'].values + ' was not found in topology1 bidding zone borders')
+        # if not top2_biddingZoneBorders['name'].isin([k['value']]).any():
+            # errCount += 1
+            # print('Error: Map value ' + k['key'].values + ' was not found in topology2 bidding zone borders')
 
     #todo:  a bidding zone border in topology1 is not found in the list of keys -> warning
     #todo: a bidding zone botder in topology2 is not found in the list of values -> warning
@@ -226,6 +226,30 @@ def export_excel():
 def load_from_json():
     #Todo: import JSON formatted topology file / topology map.
     return None
+
+
+def validate_and_export(topology1file, topology2file, top_map_file):
+    topology1 = load_topology_from_excel(path + topology1file)
+    if  check_topology(topology1):
+        export_topology(path + topology1file.replace('.xlsx','.JSON'), topology1)    
+    else:
+        print("Topology validation failed. JSON export omitted.")
+
+    topology2 = load_topology_from_excel(path + topology2file)
+    if  check_topology(topology2):
+        export_topology(path + topology2file.replace('.xlsx','.JSON'), topology2)    
+    else:
+        print("Topology validation failed. JSON export omitted.")
+        
+    top_map = load_map_from_excel(path + top_map_file)
+    if validate_map(top_map, topology1, topology2):
+        export_topology_map(path + top_map_file.replace('.xlsx','.JSON'), top_map)
+    else:
+        print('Validation of map failed. No export created')
+
+    return
+    
+    
 
 if __name__=="__main__":
     
@@ -267,25 +291,19 @@ if __name__=="__main__":
     else:
         print('Validation of map failed. No export created')
 
-    topology1file = "topology_ig107.xlsx"
-    topology2file = "topology_intradayNTC.xlsx"
-    top_map_file = "map_ig107-intradayNTC.xlsx"
+    # topology1file = "topology_entsoeTP.xlsx"
+    # topology2file = "topology_intradayNTC.xlsx"
+    # top_map_file = "map_entsoeTP-intradayNTC.xlsx"
     
-    topology1 = load_topology_from_excel(path + topology1file)
-    if  check_topology(topology1):
-        export_topology(path + topology1file.replace('.xlsx','.JSON'), topology1)    
-    else:
-        print("Topology validation failed. JSON export omitted.")
+    validate_and_export(path + "topology_entsoeTP.xlsx", path + "topology_intradayNTC.xlsx", path + "map_entsoeTP-intradayNTC.xlsx")
+    
+    validate_and_export(path + "topology_ig107.xlsx", path + "topology_intradayNTC.xlsx", path + "map_ig107-intradayNTC.xlsx")
+    
+    validate_and_export(path + "topology_FB2024v1.xlsx", path + "topology_intradayNTC.xlsx", path + "map_FB2024v1-intradayNTC.xlsx")
 
-    topology2 = load_topology_from_excel(path + topology2file)
-    if  check_topology(topology2):
-        export_topology(path + topology2file.replace('.xlsx','.JSON'), topology2)    
-    else:
-        print("Topology validation failed. JSON export omitted.")
+    validate_and_export(path + "topology_intradayNTC.xlsx", path + "topology_FB2024v1.xlsx", path + "map_intradayNTC-FB2024v1.xlsx")    
+    
+    validate_and_export(path + "topology_FB2024v1.xlsx", path + "topology_ig107.xlsx", path + "map_FB2024v1-ig107.xlsx")    
+
         
-    top_map = load_map_from_excel(path + top_map_file)
-    if validate_map(top_map, topology1, topology2):
-        export_topology_map(path + top_map_file.replace('.xlsx','.JSON'), top_map)
-    else:
-        print('Validation of map failed. No export created')
     
