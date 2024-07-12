@@ -2,7 +2,8 @@
     "metaData": [
         {
             "name": "intraday_ntc_topology",
-            "version": "2024-06-27",
+            "createdDate": "2024-06-27",
+            "version": 1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],

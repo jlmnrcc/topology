@@ -1,8 +1,9 @@
 {
     "metaData": [
         {
-            "name": "norCap_ig107_topology",
-            "version": "2024-04-26",
+            "name": "topology_ig107",
+            "version": 1,
+            "createdDate": "2024-07-12",
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],

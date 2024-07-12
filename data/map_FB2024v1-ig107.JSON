@@ -2,13 +2,14 @@
     "metaData": [
         {
             "mapName": "FB2024v1-ig107",
-            "mapVersion": "2024-06-25",
+            "mapCreatedDate": "2024-06-25",
+            "mapVersion": 1,
             "TopologyFile1": "topology_FB2024v1.JSON",
             "topology1Name": "FB_topology",
-            "topology1version": "2024-03-05",
+            "topology1version": 1,
             "TopologyFile2": "topology_ig107.JSON",
-            "topology2Name": "norCap_ig107_topology",
-            "topology2version": "2024-04-26",
+            "topology2Name": "topology_ig107",
+            "topology2version": 1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],

@@ -2,13 +2,14 @@
     "metaData": [
         {
             "mapName": "entsoeTP-intradayNTC",
-            "mapVersion": "2024-04-25",
+            "mapCreatedDate": "2024-04-25",
+            "mapVersion": 1,
             "TopologyFile1": "topology_entsoeTP.JSON",
             "topology1Name": "transparency_platform_topology",
-            "topology1version": "2024-04-25",
+            "topology1version": 1,
             "TopologyFile2": "topology_intradayNTC.JSON",
             "topology2Name": "intraday_ntc_topology",
-            "topology2version": "2024-04-24",
+            "topology2version": 1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],

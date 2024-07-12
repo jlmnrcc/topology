@@ -1,9 +1,9 @@
 {
     "metaData": [
         {
-            "name": "FB_topology",
-            "createdDate": "2024-03-05",
+            "name": "topology_atceFB",
             "version": 1,
+            "createdDate": "2024-07-12",
             "CreatedBy": "jlm@nordic-rcc.net"
         }
     ],
@@ -231,421 +231,561 @@
             "name": "DK1_CO-DK1",
             "from": "DK1_CO",
             "to": "DK1",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK1_DE-DK1",
             "from": "DK1_DE",
             "to": "DK1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK1_KS-DK1",
             "from": "DK1_KS",
             "to": "DK1",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK1_SB-DK1",
             "from": "DK1_SB",
             "to": "DK1",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK1_SK-DK1",
             "from": "DK1_SK",
             "to": "DK1",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK1-DK1_CO",
             "from": "DK1",
             "to": "DK1_CO",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK1-DK1_DE",
             "from": "DK1",
             "to": "DK1_DE",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK1-DK1_KS",
             "from": "DK1",
             "to": "DK1_KS",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK1-DK1_SB",
             "from": "DK1",
             "to": "DK1_SB",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK1-DK1_SK",
             "from": "DK1",
             "to": "DK1_SK",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": true
         },
         {
             "name": "DK2_KO-DK2",
             "from": "DK2_KO",
             "to": "DK2",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK2_SB-DK2",
             "from": "DK2_SB",
             "to": "DK2",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK2-DK2_KO",
             "from": "DK2",
             "to": "DK2_KO",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK2-DK2_SB",
             "from": "DK2",
             "to": "DK2_SB",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "DK2-SE4",
             "from": "DK2",
             "to": "SE4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "FI_EL-FI",
             "from": "FI_EL",
             "to": "FI",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "FI_FS-FI",
             "from": "FI_FS",
             "to": "FI",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "FI-FI_EL",
             "from": "FI",
             "to": "FI_EL",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "FI-FI_FS",
             "from": "FI",
             "to": "FI_FS",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "FI-NO4",
             "from": "FI",
             "to": "NO4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 0,
+            "intradayBorder": false
         },
         {
             "name": "FI-SE1",
             "from": "FI",
             "to": "SE1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO1-NO2",
             "from": "NO1",
             "to": "NO2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO1-NO3",
             "from": "NO1",
             "to": "NO3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO1-NO5",
             "from": "NO1",
             "to": "NO5",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO1-SE3",
             "from": "NO1",
             "to": "SE3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2_ND-NO2",
             "from": "NO2_ND",
             "to": "NO2",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2_NK-NO2",
             "from": "NO2_NK",
             "to": "NO2",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2_SK-NO2",
             "from": "NO2_SK",
             "to": "NO2",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2-NO1",
             "from": "NO2",
             "to": "NO1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2-NO2_ND",
             "from": "NO2",
             "to": "NO2_ND",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2-NO2_NK",
             "from": "NO2",
             "to": "NO2_NK",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2-NO2_SK",
             "from": "NO2",
             "to": "NO2_SK",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO2-NO5",
             "from": "NO2",
             "to": "NO5",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO3-NO1",
             "from": "NO3",
             "to": "NO1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO3-NO4",
             "from": "NO3",
             "to": "NO4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO3-NO5",
             "from": "NO3",
             "to": "NO5",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO3-SE2",
             "from": "NO3",
             "to": "SE2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO4-FI",
             "from": "NO4",
             "to": "FI",
-            "type": "AC"
+            "type": "AC",
+            "weight": 0,
+            "intradayBorder": false
         },
         {
             "name": "NO4-NO3",
             "from": "NO4",
             "to": "NO3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO4-SE1",
             "from": "NO4",
             "to": "SE1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO4-SE2",
             "from": "NO4",
             "to": "SE2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO5-NO1",
             "from": "NO5",
             "to": "NO1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO5-NO2",
             "from": "NO5",
             "to": "NO2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "NO5-NO3",
             "from": "NO5",
             "to": "NO3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE1-FI",
             "from": "SE1",
             "to": "FI",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE1-NO4",
             "from": "SE1",
             "to": "NO4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE1-SE2",
             "from": "SE1",
             "to": "SE2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE2-NO3",
             "from": "SE2",
             "to": "NO3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE2-NO4",
             "from": "SE2",
             "to": "NO4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE2-SE1",
             "from": "SE2",
             "to": "SE1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE2-SE3",
             "from": "SE2",
             "to": "SE3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3_FS-SE3",
             "from": "SE3_FS",
             "to": "SE3",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3_KS-SE3",
             "from": "SE3_KS",
             "to": "SE3",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3_SWL-SE3",
             "from": "SE3_SWL",
             "to": "SE3",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-NO1",
             "from": "SE3",
             "to": "NO1",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-SE2",
             "from": "SE3",
             "to": "SE2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-SE3_FS",
             "from": "SE3",
             "to": "SE3_FS",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-SE3_KS",
             "from": "SE3",
             "to": "SE3_KS",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-SE3_SWL",
             "from": "SE3",
             "to": "SE3_SWL",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE3-SE4",
             "from": "SE3",
             "to": "SE4",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4_BC-SE4",
             "from": "SE4_BC",
             "to": "SE4",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": false
         },
         {
             "name": "SE4_NB-SE4",
             "from": "SE4_NB",
             "to": "SE4",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4_SP-SE4",
             "from": "SE4_SP",
             "to": "SE4",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4_SWL-SE4",
             "from": "SE4_SWL",
             "to": "SE4",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4-DK2",
             "from": "SE4",
             "to": "DK2",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4-SE3",
             "from": "SE4",
             "to": "SE3",
-            "type": "AC"
+            "type": "AC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4-SE4_BC",
             "from": "SE4",
             "to": "SE4_BC",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 0,
+            "intradayBorder": false
         },
         {
             "name": "SE4-SE4_NB",
             "from": "SE4",
             "to": "SE4_NB",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4-SE4_SP",
             "from": "SE4",
             "to": "SE4_SP",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         },
         {
             "name": "SE4-SE4_SWL",
             "from": "SE4",
             "to": "SE4_SWL",
-            "type": "HVDC"
+            "type": "HVDC",
+            "weight": 1,
+            "intradayBorder": true
         }
     ],
     "hvdcLinks": [
@@ -657,7 +797,8 @@
                 "SE3-SE3_FS",
                 "SE3_FS-SE3"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "SydvestLaenk",
@@ -667,7 +808,8 @@
                 "SE4-SE4_SWL",
                 "SE4_SWL-SE4"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "CobraCable",
@@ -675,7 +817,8 @@
                 "DK1-DK1_CO",
                 "DK1_CO-DK1"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "EstLink",
@@ -683,7 +826,8 @@
                 "FI-FI_EL",
                 "FI_EL-FI"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "NorNed",
@@ -691,7 +835,8 @@
                 "NO2-NO2_ND",
                 "NO2_ND-NO2"
             ],
-            "ImplicitLossFactor": 0.032
+            "ImplicitLossFactor": 0.032,
+            "explicitQPRE": false
         },
         {
             "name": "NordLink",
@@ -699,7 +844,8 @@
                 "NO2-NO2_NK",
                 "NO2_NK-NO2"
             ],
-            "ImplicitLossFactor": 0.031
+            "ImplicitLossFactor": 0.031,
+            "explicitQPRE": false
         },
         {
             "name": "BalticCable",
@@ -707,7 +853,8 @@
                 "SE4-SE4_BC",
                 "SE4_BC-SE4"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "NordBalt",
@@ -715,7 +862,8 @@
                 "SE4-SE4_NB",
                 "SE4_NB-SE4"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "SwePol",
@@ -723,7 +871,8 @@
                 "SE4-SE4_SP",
                 "SE4_SP-SE4"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "Skagerrak",
@@ -733,7 +882,8 @@
                 "NO2-NO2_SK",
                 "NO2_SK-NO2"
             ],
-            "ImplicitLossFactor": 0.029
+            "ImplicitLossFactor": 0.029,
+            "explicitQPRE": false
         },
         {
             "name": "KontiSkan",
@@ -743,7 +893,8 @@
                 "SE3-SE3_KS",
                 "SE3_KS-SE3"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "StoreBaelt",
@@ -753,7 +904,8 @@
                 "DK2-DK2_SB",
                 "DK2_SB-DK2"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         },
         {
             "name": "Kontek",
@@ -761,7 +913,8 @@
                 "DK2-DK2_KO",
                 "DK2_KO-DK2"
             ],
-            "ImplicitLossFactor": 0.0
+            "ImplicitLossFactor": 0.0,
+            "explicitQPRE": false
         }
     ],
     "linesets": []

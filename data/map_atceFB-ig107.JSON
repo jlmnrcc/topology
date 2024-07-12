@@ -1,58 +1,66 @@
 {
     "metaData": [
         {
-            "mapName": "ig107-intradayNTC",
-            "mapCreatedDate": "2024-06-27",
+            "mapName": "map_atceFB-ig107",
             "mapVersion": 1,
-            "TopologyFile1": "topology_ig107.JSON",
-            "topology1Name": "topology_ig107",
+            "mapCreatedDate": "'2024-07-12",
+            "TopologyFile1": "topology_atceFB.JSON",
+            "topology1Name": "topology_atceFB",
             "topology1version": 1,
-            "TopologyFile2": "topology_intradayNTC.JSON",
-            "topology2Name": "intraday_ntc_topology",
+            "TopologyFile2": "topology_ig107.JSON",
+            "topology2Name": "topology_ig107",
             "topology2version": 1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],
     "map": [
         {
+            "key": "DK1_CO-DK1",
+            "value": "DK1_CO-DK1"
+        },
+        {
             "key": "DK1_DE-DK1",
-            "value": "DE_LU-DK1"
+            "value": "DK1_DE-DK1"
         },
         {
-            "key": "DK2_KO-DK2",
-            "value": "DE_LU-DK2"
+            "key": "DK1_KS-DK1",
+            "value": "DK1_KS-DK1"
         },
         {
-            "key": "NO2_NK-NO2",
-            "value": "DE_LU-NO2"
-        },
-        {
-            "key": "DK1-DK1_DE",
-            "value": "DK1-DE_LU"
-        },
-        {
-            "key": "DK1-DK2",
-            "value": "DK1-DK2"
+            "key": "DK1_SK-DK1",
+            "value": "DK1_SK-DK1"
         },
         {
             "key": "DK1-DK1_CO",
-            "value": "DK1-NL"
+            "value": "DK1-DK1_CO"
         },
         {
-            "key": "DK1-NO2",
-            "value": "DK1-NO2"
+            "key": "DK1-DK1_DE",
+            "value": "DK1-DK1_DE"
         },
         {
-            "key": "DK1-SE3",
-            "value": "DK1-SE3"
+            "key": "DK1-DK1_KS",
+            "value": "DK1-DK1_KS"
+        },
+        {
+            "key": "DK1-DK1_SK",
+            "value": "DK1-DK1_SK"
+        },
+        {
+            "key": "DK2_KO-DK2",
+            "value": "DK2_KO-DK2"
+        },
+        {
+            "key": "DK2_SB-DK2",
+            "value": "DK2-DK1"
         },
         {
             "key": "DK2-DK2_KO",
-            "value": "DK2-DE_LU"
+            "value": "DK2-DK2_KO"
         },
         {
-            "key": "DK2-DK1",
-            "value": "DK2-DK1"
+            "key": "DK2-DK2_SB",
+            "value": "DK1-DK2"
         },
         {
             "key": "DK2-SE4",
@@ -60,31 +68,23 @@
         },
         {
             "key": "FI_EL-FI",
-            "value": "EE-FI"
+            "value": "FI_EL-FI"
+        },
+        {
+            "key": "FI_FS-FI",
+            "value": "SE3-FI"
         },
         {
             "key": "FI-FI_EL",
-            "value": "FI-EE"
+            "value": "FI-FI_EL"
+        },
+        {
+            "key": "FI-NO4",
+            "value": "FI-NO4"
         },
         {
             "key": "FI-SE1",
             "value": "FI-SE1"
-        },
-        {
-            "key": "FI-SE3",
-            "value": "FI-SE3"
-        },
-        {
-            "key": "SE4_NB-SE4",
-            "value": "LT-SE4"
-        },
-        {
-            "key": "DK1_CO-DK1",
-            "value": "NL-DK1"
-        },
-        {
-            "key": "NO2_ND-NO2",
-            "value": "NL-NO2"
         },
         {
             "key": "NO1-NO2",
@@ -103,20 +103,32 @@
             "value": "NO1-SE3"
         },
         {
-            "key": "NO2-NO2_NK",
-            "value": "NO2-DE_LU"
+            "key": "NO2_ND-NO2",
+            "value": "NO2_ND-NO2"
         },
         {
-            "key": "NO2-DK1",
-            "value": "NO2-DK1"
+            "key": "NO2_NK-NO2",
+            "value": "NO2_NK-NO2"
         },
         {
-            "key": "NO2-NO2_ND",
-            "value": "NO2-NL"
+            "key": "NO2_SK-NO2",
+            "value": "NO2_SK-NO2"
         },
         {
             "key": "NO2-NO1",
             "value": "NO2-NO1"
+        },
+        {
+            "key": "NO2-NO2_ND",
+            "value": "NO2-NO2_ND"
+        },
+        {
+            "key": "NO2-NO2_NK",
+            "value": "NO2-NO2_NK"
+        },
+        {
+            "key": "NO2-NO2_SK",
+            "value": "NO2-NO2_SK"
         },
         {
             "key": "NO2-NO5",
@@ -137,6 +149,10 @@
         {
             "key": "NO3-SE2",
             "value": "NO3-SE2"
+        },
+        {
+            "key": "NO4-FI",
+            "value": "NO4-FI"
         },
         {
             "key": "NO4-NO3",
@@ -161,10 +177,6 @@
         {
             "key": "NO5-NO3",
             "value": "NO5-NO3"
-        },
-        {
-            "key": "SE4_SP-SE4",
-            "value": "PL-SE4"
         },
         {
             "key": "SE1-FI",
@@ -195,23 +207,19 @@
             "value": "SE2-SE3"
         },
         {
-            "key": "SE3-SE4",
-            "value": "SE3_AC-SE4_AC"
+            "key": "SE3_FS-SE3",
+            "value": "FI-SE3"
         },
         {
-            "key": "SE3_SWL-SE4_SWL",
-            "value": "SE3_SWL-SE4_SWL"
+            "key": "SE3_KS-SE3",
+            "value": "SE3_KS-SE3"
         },
         {
-            "key": "SE3A-DK1A",
-            "value": "SE3-DK1"
+            "key": "SE3_SWL-SE3",
+            "value": "SE4_SWL-SE3_SWL"
         },
         {
-            "key": "SE3-FI",
-            "value": "SE3-FI"
-        },
-        {
-            "key": "SE3A-NO1",
+            "key": "SE3-NO1",
             "value": "SE3-NO1"
         },
         {
@@ -219,56 +227,48 @@
             "value": "SE3-SE2"
         },
         {
-            "key": "SE3_ACDC-SE4_ACDC",
+            "key": "SE3-SE3_KS",
+            "value": "SE3-SE3_KS"
+        },
+        {
+            "key": "SE3-SE4",
             "value": "SE3-SE4"
         },
         {
-            "key": "SE4-SE3",
-            "value": "SE4_AC-SE3_AC"
+            "key": "SE4_BC-SE4",
+            "value": "SE4_BC-SE4"
         },
         {
-            "key": "SE4_SWL-SE3_SWL",
-            "value": "SE4_SWL-SE3_SWL"
+            "key": "SE4_NB-SE4",
+            "value": "SE4_NB-SE4"
+        },
+        {
+            "key": "SE4_SP-SE4",
+            "value": "SE4_SP-SE4"
+        },
+        {
+            "key": "SE4_SWL-SE4",
+            "value": "SE3_SWL-SE4_SWL"
         },
         {
             "key": "SE4-DK2",
             "value": "SE4-DK2"
         },
         {
-            "key": "SE4-SE4_NB",
-            "value": "SE4-LT"
-        },
-        {
-            "key": "SE4-SE4_SP",
-            "value": "SE4-PL"
-        },
-        {
-            "key": "SE4_ACDC-SE3_ACDC",
+            "key": "SE4-SE3",
             "value": "SE4-SE3"
         },
         {
-            "key": "SE3B-SE3A",
-            "value": "SE3-SE3A"
+            "key": "SE4-SE4_BC",
+            "value": "SE4-SE4_BC"
         },
         {
-            "key": "SE3A-SE3B",
-            "value": "SE3A-SE3"
+            "key": "SE4-SE4_NB",
+            "value": "SE4-SE4_NB"
         },
         {
-            "key": "NO2-NO2A",
-            "value": "NO2-NO2A"
-        },
-        {
-            "key": "NO2A-NO2",
-            "value": "NO2A-NO2"
-        },
-        {
-            "key": "DK1-DK1A",
-            "value": "DK1-DK1A"
-        },
-        {
-            "key": "DK1A-DK1",
-            "value": "DK1A-DK1"
+            "key": "SE4-SE4_SP",
+            "value": "SE4-SE4_SP"
         }
     ]
 }

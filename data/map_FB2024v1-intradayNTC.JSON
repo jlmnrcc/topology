@@ -2,13 +2,14 @@
     "metaData": [
         {
             "mapName": "NTC2024v1-FB2024v1",
-            "mapVersion": "2024-03-15",
+            "mapCreatedDate": "2024-03-15",
+            "mapVersion": 1,
             "TopologyFile1": "topology_FB2024v1.JSON",
             "topology1Name": "FB_topology",
-            "topology1version": "2024-03-05",
+            "topology1version": 1,
             "TopologyFile2": "topology_intradayNTC.JSON",
             "topology2Name": "intraday_ntc_topology",
-            "topology2version": "2024-04-24",
+            "topology2version": 1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],
