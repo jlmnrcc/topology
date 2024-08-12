@@ -2,14 +2,14 @@
     "metaData": [
         {
             "mapName": "map_atceFB-ig107",
-            "mapVersion": 1,
-            "mapCreatedDate": "'2024-07-12",
+            "mapVersion": 1.1,
+            "mapCreatedDate": "'2024-08-12",
             "TopologyFile1": "topology_atceFB.JSON",
             "topology1Name": "topology_atceFB",
             "topology1version": 1,
             "TopologyFile2": "topology_ig107.JSON",
             "topology2Name": "topology_ig107",
-            "topology2version": 1,
+            "topology2version": 1.1,
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],

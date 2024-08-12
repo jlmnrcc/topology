@@ -2,8 +2,8 @@
     "metaData": [
         {
             "name": "topology_ig107",
-            "version": 1,
-            "createdDate": "2024-07-12",
+            "version": 1.1,
+            "createdDate": "2024-08-12",
             "createdBy": "jlm@nordic-rcc.net"
         }
     ],
@@ -918,8 +918,8 @@
         {
             "name": "SE3A-SE3B",
             "mappedBorders": [
-                "DK1-SE3",
-                "NO1-SE3"
+                "SE3-DK1",
+                "SE3-NO1"
             ]
         },
         {
@@ -957,8 +957,8 @@
         {
             "name": "SE3B-SE3A",
             "mappedBorders": [
-                "SE3-DK1",
-                "SE3-NO1"
+                "DK1-SE3",
+                "NO1-SE3"
             ]
         },
         {

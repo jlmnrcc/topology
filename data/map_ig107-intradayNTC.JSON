@@ -2,11 +2,11 @@
     "metaData": [
         {
             "mapName": "ig107-intradayNTC",
-            "mapCreatedDate": "2024-06-27",
+            "mapCreatedDate": "2024-08-12",
             "mapVersion": 1,
             "TopologyFile1": "topology_ig107.JSON",
             "topology1Name": "topology_ig107",
-            "topology1version": 1,
+            "topology1version": 1.1,
             "TopologyFile2": "topology_intradayNTC.JSON",
             "topology2Name": "intraday_ntc_topology",
             "topology2version": 1,

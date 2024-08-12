@@ -245,7 +245,7 @@ def validate_and_export(topology1file, topology2file, top_map_file):
     if validate_map(top_map, topology1, topology2):
         export_topology_map(path + top_map_file.replace('.xlsx','.JSON'), top_map)
     else:
-        print('Validation of map failed. No export created')
+        print('Validation of map: '+ top_map_file +' failed. No export created')
 
     return
     
@@ -263,37 +263,37 @@ if __name__=="__main__":
     # else:
         # print("Topology validation failed. JSON export omitted.")
 
-    test_top_ntc = load_topology_from_excel(path + 'topology_NTC2024v1.xlsx')
-    if  check_topology(test_top_ntc):
-        export_topology(path + 'topology_NTC2024v1.JSON', test_top_ntc)    
-    else:
-        print("Topology validation failed. JSON export omitted.")
+    # test_top_ntc = load_topology_from_excel(path + 'topology_NTC2024v1.xlsx')
+    # if  check_topology(test_top_ntc):
+        # export_topology(path + 'topology_NTC2024v1.JSON', test_top_ntc)    
+    # else:
+        # print("Topology validation failed. JSON export omitted.")
 
-    test_top_fb = load_topology_from_excel(path + 'topology_FB2024v1.xlsx')
-    if  check_topology(test_top_fb):
-        export_topology(path + 'topology_FB2024v1.JSON', test_top_fb)    
-    else:
-        print("Topology validation failed. JSON export omitted.")
+    # test_top_fb = load_topology_from_excel(path + 'topology_FB2024v1.xlsx')
+    # if  check_topology(test_top_fb):
+        # export_topology(path + 'topology_FB2024v1.JSON', test_top_fb)    
+    # else:
+        # print("Topology validation failed. JSON export omitted.")
         
     
     
-    fb_ntc_map = load_map_from_excel(path + 'map_FB2024v1-NTC2024v1.xlsx')
-    success=validate_map(fb_ntc_map, test_top_fb, test_top_ntc)
-    if success:
-        export_topology_map(path + "FB_to_NTC_map.JSON", fb_ntc_map)
-    else:
-        print('Validation of map failed. No export created')
+    # fb_ntc_map = load_map_from_excel(path + 'map_FB2024v1-NTC2024v1.xlsx')
+    # success=validate_map(fb_ntc_map, test_top_fb, test_top_ntc)
+    # if success:
+        # export_topology_map(path + "FB_to_NTC_map.JSON", fb_ntc_map)
+    # else:
+        # print('Validation of map failed. No export created')
     
-    ntc_fb_map = load_map_from_excel(path + 'map_NTC2024v1-FB2024v1.xlsx')
-    success=validate_map(ntc_fb_map, test_top_ntc, test_top_fb)
-    if success:
-        export_topology_map(path + "NTC_to_FB_map.JSON", ntc_fb_map)
-    else:
-        print('Validation of map failed. No export created')
+    # ntc_fb_map = load_map_from_excel(path + 'map_NTC2024v1-FB2024v1.xlsx')
+    # success=validate_map(ntc_fb_map, test_top_ntc, test_top_fb)
+    # if success:
+        # export_topology_map(path + "NTC_to_FB_map.JSON", ntc_fb_map)
+    # else:
+        # print('Validation of map failed. No export created')
 
-    # topology1file = "topology_entsoeTP.xlsx"
-    # topology2file = "topology_intradayNTC.xlsx"
-    # top_map_file = "map_entsoeTP-intradayNTC.xlsx"
+    topology1file = "topology_entsoeTP.xlsx"
+    topology2file = "topology_intradayNTC.xlsx"
+    top_map_file = "map_entsoeTP-intradayNTC.xlsx"
     
     validate_and_export(path + "topology_entsoeTP.xlsx", path + "topology_intradayNTC.xlsx", path + "map_entsoeTP-intradayNTC.xlsx")
     
@@ -304,6 +304,13 @@ if __name__=="__main__":
     validate_and_export(path + "topology_intradayNTC.xlsx", path + "topology_FB2024v1.xlsx", path + "map_intradayNTC-FB2024v1.xlsx")    
     
     validate_and_export(path + "topology_FB2024v1.xlsx", path + "topology_ig107.xlsx", path + "map_FB2024v1-ig107.xlsx")    
+    
+    validate_and_export(path + "topology_atceFB.xlsx", path + "topology_ig107.xlsx", path + "map_atceFB-ig107.xlsx")    
 
-        
+    # topology1 = load_topology_from_excel( path + "topology_atce_FB.xlsx")
+    
+    # if  check_topology(topology1):
+        # export_topology(path + 'topology_atce_FB.JSON', topology1)    
+    # else:
+        # print("Topology validation failed. JSON export omitted.")    
     
