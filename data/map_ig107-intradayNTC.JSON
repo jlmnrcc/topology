@@ -2,8 +2,8 @@
     "metaData": [
         {
             "mapName": "ig107-intradayNTC",
-            "mapCreatedDate": "2024-08-12",
-            "mapVersion": 1,
+            "mapCreatedDate": "2024-10-02",
+            "mapVersion": 1.1,
             "TopologyFile1": "topology_ig107.JSON",
             "topology1Name": "topology_ig107",
             "topology1version": 1.1,
@@ -248,11 +248,11 @@
         },
         {
             "key": "SE3B-SE3A",
-            "value": "SE3-SE3A"
+            "value": "SE3A-SE3"
         },
         {
             "key": "SE3A-SE3B",
-            "value": "SE3A-SE3"
+            "value": "SE3-SE3A"
         },
         {
             "key": "NO2-NO2A",
