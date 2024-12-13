@@ -1,12 +1,9 @@
 {
-    "metaData": [
-        {
-            "name": "FB_topology",
-            "createdDate": "2024-03-05",
-            "version": 1,
-            "CreatedBy": "jlm@nordic-rcc.net"
-        }
-    ],
+    "name": "FB_topology",
+    "createdDate": "2024-03-05",
+    "version": 1,
+    "CreatedBy": "jlm@nordic-rcc.net",
+    "topologyType": "flowBased",
     "biddingZones": [
         {
             "shortName": "DK1",

@@ -1,12 +1,9 @@
 {
-    "metaData": [
-        {
-            "name": "transparency_platform_topology",
-            "createdDate": "2024-04-25",
-            "version": 1,
-            "createdBy": "jlm@nordic-rcc.net"
-        }
-    ],
+    "name": "transparency_platform_topology",
+    "createdDate": "2024-04-25",
+    "version": 1,
+    "createdBy": "jlm@nordic-rcc.net",
+    "topologyType": "ntcMarket",
     "biddingZones": [
         {
             "shortName": "DE_LU",

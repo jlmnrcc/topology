@@ -1,12 +1,9 @@
 {
-    "metaData": [
-        {
-            "name": "topology_atceFB",
-            "version": 1,
-            "createdDate": "2024-07-12",
-            "CreatedBy": "jlm@nordic-rcc.net"
-        }
-    ],
+    "name": "topology_atceFB",
+    "version": 1,
+    "createdDate": "2024-07-12",
+    "CreatedBy": "jlm@nordic-rcc.net",
+    "topologyType": "flowBased",
     "biddingZones": [
         {
             "shortName": "DK1",
@@ -640,7 +637,7 @@
             "from": "SE3_FS",
             "to": "SE3",
             "type": "HVDC",
-            "weight": 1,
+            "weight": 0,
             "intradayBorder": true
         },
         {
@@ -656,7 +653,7 @@
             "from": "SE3_SWL",
             "to": "SE3",
             "type": "HVDC",
-            "weight": 1,
+            "weight": 0,
             "intradayBorder": true
         },
         {
@@ -680,7 +677,7 @@
             "from": "SE3",
             "to": "SE3_FS",
             "type": "HVDC",
-            "weight": 1,
+            "weight": 0,
             "intradayBorder": true
         },
         {
@@ -696,7 +693,7 @@
             "from": "SE3",
             "to": "SE3_SWL",
             "type": "HVDC",
-            "weight": 1,
+            "weight": 0,
             "intradayBorder": true
         },
         {

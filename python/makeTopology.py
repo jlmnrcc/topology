@@ -125,8 +125,11 @@ def check_topology(dataFrames : list):
     return errCount == 0
 
 def export_topology(outFile:str, dataFrames:list):
-    result = {}
-    result["metaData"] = json.loads(dataFrames[0].to_json(orient="records"))
+    # result = {}
+    result = json.loads(dataFrames[0].to_json(orient="records"))[0]
+    # a = json.loads(dataFrames[0].to_json(orient="records"))
+    # a[0]['newField']=10
+    # print(a)
     result["biddingZones"] = json.loads(dataFrames[1].to_json(orient="records"))
     result["biddingZoneBorders"] = json.loads(dataFrames[2].to_json(orient="records"))
     result["hvdcLinks"] = json.loads(dataFrames[3].to_json(orient="records"))
