@@ -1,9 +1,9 @@
 {
     "name": "topology_ig107",
-    "version": 1.1,
-    "createdDate": "2024-08-12",
+    "version": 3,
+    "createdDate": "2-07-2025",
     "createdBy": "jlm@nordic-rcc.net",
-    "topologyType": "ntcMarket",
+    "topologyType": "NtcMarket",
     "biddingZones": [
         {
             "shortName": "DK1",
@@ -181,14 +181,14 @@
             "ccr": "nordics"
         },
         {
-            "shortName": "SE3A",
+            "shortName": "SE3B",
             "eic": "46Y000000000008K",
             "isVirtual": true,
             "synchronousArea": "nordics",
             "ccr": "nordics"
         },
         {
-            "shortName": "SE3B",
+            "shortName": "SE3A",
             "eic": "46Y000000000007M",
             "isVirtual": true,
             "synchronousArea": "nordics",
@@ -431,6 +431,18 @@
             "type": "HVDC"
         },
         {
+            "name": "NO2_ND-NO2A",
+            "from": "NO2_ND",
+            "to": "NO2A",
+            "type": "lineset"
+        },
+        {
+            "name": "NO2_NK-NO2A",
+            "from": "NO2_NK",
+            "to": "NO2A",
+            "type": "lineset"
+        },
+        {
             "name": "NO2_SK-NO2",
             "from": "NO2_SK",
             "to": "NO2",
@@ -471,6 +483,18 @@
             "from": "NO2",
             "to": "NO2_NK",
             "type": "HVDC"
+        },
+        {
+            "name": "NO2A-NO2_ND",
+            "from": "NO2A",
+            "to": "NO2_ND",
+            "type": "lineset"
+        },
+        {
+            "name": "NO2A-NO2_NK",
+            "from": "NO2A",
+            "to": "NO2_NK",
+            "type": "lineset"
         },
         {
             "name": "NO2-NO2_SK",
@@ -980,6 +1004,30 @@
             "name": "DK1-NO2",
             "mappedBorders": [
                 "NO2_SK-NO2"
+            ]
+        },
+        {
+            "name": "NO2_ND-NO2A",
+            "mappedBorders": [
+                "NO2_ND-NO2"
+            ]
+        },
+        {
+            "name": "NO2_NK-NO2A",
+            "mappedBorders": [
+                "NO2_NK-NO2"
+            ]
+        },
+        {
+            "name": "NO2A-NO2_ND",
+            "mappedBorders": [
+                "NO2-NO2_ND"
+            ]
+        },
+        {
+            "name": "NO2A-NO2_NK",
+            "mappedBorders": [
+                "NO2-NO2_NK"
             ]
         }
     ]
