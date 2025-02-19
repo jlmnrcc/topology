@@ -1,7 +1,7 @@
 {
     "name": "topology_ig107",
-    "version": 3,
-    "createdDate": "2-07-2025",
+    "version": 4,
+    "createdDate": 1739923200000,
     "createdBy": "jlm@nordic-rcc.net",
     "topologyType": "NtcMarket",
     "biddingZones": [
@@ -181,14 +181,14 @@
             "ccr": "nordics"
         },
         {
-            "shortName": "SE3B",
+            "shortName": "SE3A",
             "eic": "46Y000000000008K",
             "isVirtual": true,
             "synchronousArea": "nordics",
             "ccr": "nordics"
         },
         {
-            "shortName": "SE3A",
+            "shortName": "SE3B",
             "eic": "46Y000000000007M",
             "isVirtual": true,
             "synchronousArea": "nordics",
