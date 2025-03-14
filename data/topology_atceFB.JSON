@@ -1,7 +1,7 @@
 {
     "name": "topology_atceFB",
-    "version": 2,
-    "createdDate": "2024-12-13",
+    "version": 4,
+    "createdDate": "2025-03-14",
     "CreatedBy": "jlm@nordic-rcc.net",
     "topologyType": "flowBased",
     "biddingZones": [
@@ -869,7 +869,7 @@
                 "SE4_SP-SE4"
             ],
             "ImplicitLossFactor": 0.0,
-            "explicitQPRE": false
+            "explicitQPRE": true
         },
         {
             "name": "Skagerrak",
