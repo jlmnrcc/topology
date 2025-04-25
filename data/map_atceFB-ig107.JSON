@@ -1,18 +1,10 @@
 {
-    "metaData": [
-        {
-            "mapName": "map_atceFB-ig107",
-            "mapVersion": 2,
-            "mapCreatedDate": "'2024-12-13",
-            "TopologyFile1": "topology_atceFB.JSON",
-            "topology1Name": "topology_atceFB",
-            "topology1version": 2,
-            "TopologyFile2": "topology_ig107.JSON",
-            "topology2Name": "topology_ig107",
-            "topology2version": 1.1,
-            "createdBy": "jlm@nordic-rcc.net"
-        }
-    ],
+    "metaData": {
+        "mapName": "map_atceFB-ig107",
+        "mapVersion": 4,
+        "mapCreatedDate": "2025-04-25",
+        "createdBy": "jlm@nordic-rcc.net"
+    },
     "map": [
         {
             "key": "DK1_CO-DK1",
@@ -52,7 +44,7 @@
         },
         {
             "key": "DK2_SB-DK2",
-            "value": "DK2-DK1"
+            "value": "DK1-DK2"
         },
         {
             "key": "DK2-DK2_KO",
@@ -60,7 +52,7 @@
         },
         {
             "key": "DK2-DK2_SB",
-            "value": "DK1-DK2"
+            "value": "DK2-DK1"
         },
         {
             "key": "DK2-SE4",
