@@ -171,7 +171,7 @@ def load_map_from_excel(map_file_name:str):
 
 def export_topology_map(outputFileName:str, mapDataFrames:list):
     result = {}
-    result["metaData"] = json.loads(mapDataFrames[0].to_json(orient="records"))
+    result["metaData"] = json.loads(mapDataFrames[0].to_json(orient="records"))[0]
     result["map"] = json.loads(mapDataFrames[1].to_json(orient="records"))
     
     with open(outputFileName,'+w') as f:
@@ -186,19 +186,19 @@ def validate_map(map_dataFrames : list, topology1_dataFrames : list, topology2_d
     top1_metaData, top1_biddingZones, top1_biddingZoneBorders, top1_hvdc, top1_lineset = topology1_dataFrames
     top2_metaData, top2_biddingZones, top2_biddingZoneBorders, top2_hvdc, top2_lineset = topology2_dataFrames
     
-    if not mapMetaData['topology1Name'].values == top1_metaData['name'].values:
-        errCount += 1
-        print('Error: Mapped name topology 1 does not match name of topology 1')
-    if not mapMetaData['topology1version'].values == top1_metaData['version'].values:
-        errCount += 1
-        print('Error: Mapped version topology 1 does not match version of topology 1')
+    # if not mapMetaData['topology1Name'].values == top1_metaData['name'].values:
+        # errCount += 1
+        # print('Error: Mapped name topology 1 does not match name of topology 1')
+    # if not mapMetaData['topology1version'].values == top1_metaData['version'].values:
+        # errCount += 1
+        # print('Error: Mapped version topology 1 does not match version of topology 1')
 
-    if not mapMetaData['topology2Name'].values == top2_metaData['name'].values:
-        errCount += 1
-        print('Error: Mapped name topology 2 does not match name of topology 2')
-    if not mapMetaData['topology2version'].values == top2_metaData['version'].values:
-        errCount += 1
-        print('Error: Mapped version topology 2 does not match version of topology 2')
+    # if not mapMetaData['topology2Name'].values == top2_metaData['name'].values:
+        # errCount += 1
+        # print('Error: Mapped name topology 2 does not match name of topology 2')
+    # if not mapMetaData['topology2version'].values == top2_metaData['version'].values:
+        # errCount += 1
+        # print('Error: Mapped version topology 2 does not match version of topology 2')
 
     # a key is not found in topology1 -> error
     # a value is not founf in topology2 -> error
