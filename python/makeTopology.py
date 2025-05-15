@@ -308,7 +308,13 @@ if __name__=="__main__":
     
     validate_and_export(path + "topology_FB2024v1.xlsx", path + "topology_ig107.xlsx", path + "map_FB2024v1-ig107.xlsx")    
     
-    validate_and_export(path + "topology_atceFB.xlsx", path + "topology_ig107.xlsx", path + "map_atceFB-ig107.xlsx")    
+    validate_and_export(path + "topology_atceFB.xlsx", path + "topology_ig107.xlsx", path + "map_atceFB-ig107.xlsx")  
+
+    validate_and_export(path + "topology_ig107.xlsx", path + "topology_ig107.xlsx", path + "map_ig107_ig107.xlsx")  
+    
+    validate_and_export(path + "topology_NSF.xlsx", path + "topology_atceFB.xlsx", path + "map_NSF-FB.xlsx")
+
+    
 
     # topology1 = load_topology_from_excel( path + "topology_atce_FB.xlsx")
     
