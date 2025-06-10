@@ -1,7 +1,7 @@
 {
     "name": "topology_atceFB",
-    "version": 4,
-    "createdDate": "2025-03-14",
+    "version": 7,
+    "createdDate": "2025-06-10",
     "CreatedBy": "jlm@nordic-rcc.net",
     "topologyType": "flowBased",
     "biddingZones": [
@@ -230,7 +230,8 @@
             "to": "DK1",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1_DE-DK1",
@@ -238,7 +239,8 @@
             "to": "DK1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1_KS-DK1",
@@ -246,7 +248,8 @@
             "to": "DK1",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1_SB-DK1",
@@ -254,7 +257,8 @@
             "to": "DK1",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1_SK-DK1",
@@ -262,7 +266,8 @@
             "to": "DK1",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1-DK1_CO",
@@ -270,7 +275,8 @@
             "to": "DK1_CO",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1-DK1_DE",
@@ -278,7 +284,8 @@
             "to": "DK1_DE",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1-DK1_KS",
@@ -286,7 +293,8 @@
             "to": "DK1_KS",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1-DK1_SB",
@@ -294,7 +302,8 @@
             "to": "DK1_SB",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK1-DK1_SK",
@@ -302,7 +311,8 @@
             "to": "DK1_SK",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK2_KO-DK2",
@@ -310,7 +320,8 @@
             "to": "DK2",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK2_SB-DK2",
@@ -318,7 +329,8 @@
             "to": "DK2",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK2-DK2_KO",
@@ -326,7 +338,8 @@
             "to": "DK2_KO",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK2-DK2_SB",
@@ -334,7 +347,8 @@
             "to": "DK2_SB",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "DK2-SE4",
@@ -342,7 +356,8 @@
             "to": "SE4",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "FI_EL-FI",
@@ -350,7 +365,8 @@
             "to": "FI",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "FI_FS-FI",
@@ -358,7 +374,8 @@
             "to": "FI",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "FI-FI_EL",
@@ -366,7 +383,8 @@
             "to": "FI_EL",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "FI-FI_FS",
@@ -374,7 +392,8 @@
             "to": "FI_FS",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "FI-NO4",
@@ -382,7 +401,8 @@
             "to": "NO4",
             "type": "AC",
             "weight": 0,
-            "intradayBorder": false
+            "intradayBorder": false,
+            "MaxAtc": 99999
         },
         {
             "name": "FI-SE1",
@@ -390,7 +410,8 @@
             "to": "SE1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO1-NO2",
@@ -398,7 +419,8 @@
             "to": "NO2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO1-NO3",
@@ -406,7 +428,8 @@
             "to": "NO3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO1-NO5",
@@ -414,7 +437,8 @@
             "to": "NO5",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO1-SE3",
@@ -422,7 +446,8 @@
             "to": "SE3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2_ND-NO2",
@@ -430,7 +455,8 @@
             "to": "NO2",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2_NK-NO2",
@@ -438,7 +464,8 @@
             "to": "NO2",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2_SK-NO2",
@@ -446,7 +473,8 @@
             "to": "NO2",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2-NO1",
@@ -454,7 +482,8 @@
             "to": "NO1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2-NO2_ND",
@@ -462,7 +491,8 @@
             "to": "NO2_ND",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2-NO2_NK",
@@ -470,7 +500,8 @@
             "to": "NO2_NK",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2-NO2_SK",
@@ -478,7 +509,8 @@
             "to": "NO2_SK",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO2-NO5",
@@ -486,7 +518,8 @@
             "to": "NO5",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO3-NO1",
@@ -494,7 +527,8 @@
             "to": "NO1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO3-NO4",
@@ -502,7 +536,8 @@
             "to": "NO4",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO3-NO5",
@@ -510,7 +545,8 @@
             "to": "NO5",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO3-SE2",
@@ -518,7 +554,8 @@
             "to": "SE2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO4-FI",
@@ -526,7 +563,8 @@
             "to": "FI",
             "type": "AC",
             "weight": 0,
-            "intradayBorder": false
+            "intradayBorder": false,
+            "MaxAtc": 99999
         },
         {
             "name": "NO4-NO3",
@@ -534,7 +572,8 @@
             "to": "NO3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO4-SE1",
@@ -542,7 +581,8 @@
             "to": "SE1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO4-SE2",
@@ -550,7 +590,8 @@
             "to": "SE2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO5-NO1",
@@ -558,7 +599,8 @@
             "to": "NO1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO5-NO2",
@@ -566,7 +608,8 @@
             "to": "NO2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "NO5-NO3",
@@ -574,7 +617,8 @@
             "to": "NO3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE1-FI",
@@ -582,7 +626,8 @@
             "to": "FI",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE1-NO4",
@@ -590,7 +635,8 @@
             "to": "NO4",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE1-SE2",
@@ -598,7 +644,8 @@
             "to": "SE2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE2-NO3",
@@ -606,7 +653,8 @@
             "to": "NO3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE2-NO4",
@@ -614,7 +662,8 @@
             "to": "NO4",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE2-SE1",
@@ -622,7 +671,8 @@
             "to": "SE1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE2-SE3",
@@ -630,7 +680,8 @@
             "to": "SE3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3_FS-SE3",
@@ -638,7 +689,8 @@
             "to": "SE3",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3_KS-SE3",
@@ -646,7 +698,8 @@
             "to": "SE3",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3_SWL-SE3",
@@ -654,7 +707,8 @@
             "to": "SE3",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-NO1",
@@ -662,7 +716,8 @@
             "to": "NO1",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-SE2",
@@ -670,7 +725,8 @@
             "to": "SE2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-SE3_FS",
@@ -678,7 +734,8 @@
             "to": "SE3_FS",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-SE3_KS",
@@ -686,7 +743,8 @@
             "to": "SE3_KS",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-SE3_SWL",
@@ -694,7 +752,8 @@
             "to": "SE3_SWL",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE3-SE4",
@@ -702,7 +761,8 @@
             "to": "SE4",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4_BC-SE4",
@@ -710,7 +770,8 @@
             "to": "SE4",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": false
+            "intradayBorder": false,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4_NB-SE4",
@@ -718,7 +779,8 @@
             "to": "SE4",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4_SP-SE4",
@@ -726,7 +788,8 @@
             "to": "SE4",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4_SWL-SE4",
@@ -734,7 +797,8 @@
             "to": "SE4",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-DK2",
@@ -742,7 +806,8 @@
             "to": "DK2",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-SE3",
@@ -750,7 +815,8 @@
             "to": "SE3",
             "type": "AC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-SE4_BC",
@@ -758,7 +824,8 @@
             "to": "SE4_BC",
             "type": "HVDC",
             "weight": 0,
-            "intradayBorder": false
+            "intradayBorder": false,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-SE4_NB",
@@ -766,7 +833,8 @@
             "to": "SE4_NB",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-SE4_SP",
@@ -774,7 +842,8 @@
             "to": "SE4_SP",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         },
         {
             "name": "SE4-SE4_SWL",
@@ -782,7 +851,8 @@
             "to": "SE4_SWL",
             "type": "HVDC",
             "weight": 1,
-            "intradayBorder": true
+            "intradayBorder": true,
+            "MaxAtc": 99999
         }
     ],
     "hvdcLinks": [
@@ -890,7 +960,7 @@
                 "SE3-SE3_KS",
                 "SE3_KS-SE3"
             ],
-            "ImplicitLossFactor": 0.0,
+            "ImplicitLossFactor": 0.025,
             "explicitQPRE": false
         },
         {
